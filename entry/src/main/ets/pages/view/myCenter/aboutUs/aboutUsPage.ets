@@ -45,7 +45,7 @@ struct AboutUsPage {
         try {
           const request: Want = {
             parameters: {
-              bundleName: 'com.legado.app'
+              bundleName: 'cn.sharepeople.legado'
             }
           };
           productViewManager.loadProduct(getContext(this) as common.UIAbilityContext, request, {
